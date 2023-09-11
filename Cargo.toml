@@ -1,0 +1,17 @@
+[package]
+name = "crypto-utils"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name="u256"
+path="src/256.rs"
+
+[[bin]]
+name="u381"
+path="src/381.rs"
+
+[dependencies]
+lambdaworks-math = { git = "https://github.com/RajeshRk18/lambdaworks.git", branch = "montgomery-backend-32bits"}
+
