@@ -9,8 +9,16 @@ name="u256"
 path="src/256.rs"
 
 [[bin]]
-name="u381"
-path="src/381.rs"
+name="u384"
+path="src/384.rs"
+
+[[bin]]
+name="algo"
+path="src/algos.rs"
+
+[[bin]]
+name="limb_convert"
+path="src/limb_convert.rs"
 
 [dependencies]
 lambdaworks-math = { git = "https://github.com/RajeshRk18/lambdaworks.git", branch = "montgomery-backend-32bits"}

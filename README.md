@@ -6,7 +6,9 @@ cargo build --release
 
 ## Usage
 
-### 256 Bits
+### 1. Hex to Limb Conversion
+
+#### 256 Bits
 
 - #### 32-bit word
 
@@ -20,7 +22,7 @@ cargo build --release
 ./target/release/u256 64 <HEX>
 ```
 
-### 384 Bits
+#### 384 Bits
 
 - #### 32-bit word
 
@@ -32,4 +34,10 @@ cargo build --release
 
 ```
 ./target/release/u381 64 <HEX>
+```
+
+### 2. 64 bits to 32 bits limb conversion
+
+```
+./target/release/limb_convert <l_0 l_1 l_2 .. l_n>
 ```
